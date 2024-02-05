@@ -11,7 +11,7 @@ Extractor for the SteamGuard key on Android using Frida. This repository was cre
 ## Usage
 
 ```console
-git clone https://github.com/RafaelDiasCampos/SteamGuardKeyExtractor && cd SteamGuardKeyExtractor
+git clone https://github.com/RafaelDiasCampos/SteamGuardKeyExtractor.git && cd SteamGuardKeyExtractor
 frida -U -f com.valvesoftware.android.steam.community -l .\decrypter.js
 ```
 
